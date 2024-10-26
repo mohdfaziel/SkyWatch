@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+:root {
+    --primary: #fcfcfc;
+    --secondary: #c6a6f2;
+    --ternary: #af82ed;
+}
+body{
+    background-color: var(--secondary);
+    color:var(--primary);
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: 5px 10px 5px 10px;
+    border-radius: 30px;
+    border: 1px solid var(--secondary);
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+input{
+    padding: 5px 10px 5px 10px;
+    border-radius: 30px;
+    border: 1px solid var(--secondary);
+    cursor: pointer;
+}
+input:focus{
+    outline: 1px solid var(--secondary);
+}
+button:hover{
+    background-color: var(--secondary);
+    border:1px solid var(--primary);
+    color:var(--primary);
+}
+.flexCol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.flexRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin:5px;
+    min-width: 10%;
+    gap:2rem;
+}
+.main{
+    border: 1px solid var(--primary);
+    border-radius: 30px;
+    width: 100%;
+    padding: 2rem 4rem 2rem 4rem;
+    gap:1rem;
+}
+.searching{
+    gap:10px;
+}
+.cityName{
+    gap:5px;
+}
+.result{
+    gap:5px;
+}
+.info{
+    gap:20px;
+}
+.main{
+    color:var(--primary);
+    background-color: var(--ternary);
+}

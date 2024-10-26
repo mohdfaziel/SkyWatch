@@ -5,15 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SkyWatch</title>
     <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
 </head>
 <body>
-    <div class="container">
-        <div class="heading">
+    <div class="container flexCol">
+        <div class="heading flexCol">
             <h1>SkyWatch</h1>
             <p>Your daily forecast, simplified</p>
         </div>
-        <div class="main">
-            
+        <div class="main flexCol">
+            <div class="searching flexCol">
+                <div class="cityName flexRow">
+                    <input type="text" placeholder="Enter City Name">
+                    <button id="btn">Search</button>
+                </div>
+                <button class="location">Use Current Location</button>
+            </div>
+            <div class="result flexCol">
+                <div class="temp">23 Degree</div>
+                <div class="city">Delhi</div>
+                <div class="info flexRow">
+                    <div class="wind flexCol">
+                        <h3>Wind</h3>
+                        <p>234</p>
+                    </div>
+                    <div class="humidity flexCol">
+                        <h3>Humidity</h3>
+                        <p>365</p>
+                    </div>
+                    <div class="Pressure flexCol">
+                        <h3>Pressure</h3>
+                        <p>112</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 <script src="script.js"></script>

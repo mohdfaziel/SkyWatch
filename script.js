@@ -88,7 +88,7 @@ function work(info,city)
                 <div class="info flexRow">
                     <div class="wind flexCol">
                         <h3>Wind</h3>
-                        <p id="wnd">${info.wind.speed}m/s/h</p>
+                        <p id="wnd">${info.wind.speed}m/s</p>
                     </div>
                     <div class="humidity flexCol">
                         <h3>Humidity</h3>
